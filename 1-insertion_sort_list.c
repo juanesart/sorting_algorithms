@@ -1,11 +1,11 @@
-# incluye  " sort.h "
+#include "sort.h"
 
-/ * *
- * insertion_sort_list - algoritmos de lista de ordenación de inserción
- * @list: puntero de lista
- * Devolución: Sin devolución
- * /
-void  insertion_sort_list ( listint_t ** lista)
+/**
+ * insertion_sort_list - insertion sort list algorthms
+ * @list: list pointer
+ * Return: No Return
+ */
+void insertion_sort_list(listint_t **list)
 {
 	listint_t *act, *sw, *temp;
 
